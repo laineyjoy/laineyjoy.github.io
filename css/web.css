@@ -1,0 +1,185 @@
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  width: 320px;
+  margin-left: 180px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+header h1 {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+}
+
+header #contact {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+#resume {
+  width: 100%;
+  float: left;
+  margin: 0 0 48px 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f6f6f6;
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+#resume li {
+  float: left;
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+}
+
+#resume li a {
+  display: block;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  border-right: 1px solid #c0c0c0;
+}
+
+#resume li:first-child > a {
+  margin-left: 160px;
+}
+
+#resume li:last-child > a {
+  border-right: 0;
+}
+
+#resume li a:hover {
+  color: #ffffff;
+  background-color: #b266ff;
+}
+
+main {
+  width: 960px;
+  border: 0px;
+  overflow: hidden;
+  position: relative;
+  top: -40px;
+  background-image: url("../pictures/watermark.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+section .left-column {
+  width: 300px;
+  position: relative;
+}
+
+section #education {
+  margin: 0 30px 0 0;
+  position: relative;
+  top: 44px;
+  text-align:right;
+}
+
+section #work-experience {
+  margin: 0 30px 0 0;
+  position: relative;
+  top: 222px;
+  text-align:right;
+}
+
+section #cocurricular-experience {
+  margin: 0 30px 0 0;
+  position: relative;
+  top: 789px;
+  text-align:right;
+}
+
+section #skills {
+  margin: 0 30px 0 0;
+  position: relative;
+  top: 1411px;
+  text-align:right;
+}
+
+section #published-articles {
+  margin: 0 30px 0 0;
+  position: relative;
+  top: 1769px;
+  text-align:right;
+}
+
+section .article {
+  float: right;
+  width: 640px;
+  border-left: 1px solid #c0c0c0;
+  padding: 0 0 0 20px;
+  margin-bottom: 40px;
+}
+
+section article {
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+
+section h2 {
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+}
+
+section article h3 {
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+}
+
+section article p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  top: -12px;
+}
+
+section article p time {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+section article ul {
+  position: relative;
+  top: -18px;
+}
+
+section article ul li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.detail {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  display: inline-block;
+}
+
+section article a:link {
+  text-decoration: none;
+}
+
+section article a:visited {
+  color: #b266ff;
+  text-decoration: none;
+}
+
+section article a:hover {
+  color: #b266ff;
+  text-decoration: underline;
+}

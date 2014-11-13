@@ -1,0 +1,136 @@
+#container {
+  width: 720pt;
+  margin: 0 auto;
+}
+
+header img {
+  width: 240pt;
+  margin-left: 135pt;
+  margin-bottom: 40px;
+  float: left;
+}
+
+header h1 {
+  position: relative;
+  top: 30pt;
+  left: 30pt;
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+}
+
+header #contact {
+  position: relative;
+  top: 22.5pt;
+  left: 30pt;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+#resume {
+  display: none;
+
+main {
+  width: 720pt;
+  border: 0;
+  overflow: hidden;
+  position: relative;
+  top: -30pt;
+}
+
+section .left-column {
+  width: 225pt;
+  position: relative;
+}
+
+section #education {
+  margin: 0 22.5pt 0 0;
+  position: relative;
+  top: 33pt;
+  text-align:right;
+}
+
+section #work-experience {
+  margin: 0 22.5pt 0 0;
+  position: relative;
+  top: 166.5pt;
+  text-align:right;
+}
+
+section #cocurricular-experience {
+  margin: 0 22.5pt 0 0;
+  position: relative;
+  top: 591.75pt;
+  text-align:right;
+}
+
+section #skills {
+  margin: 0 22.5pt 0 0;
+  position: relative;
+  top: 1058.25pt;
+  text-align:right;
+}
+
+section #published-articles {
+  margin: 0 22.5pt 0 0;
+  position: relative;
+  top: 1326.75pt;
+  text-align:right;
+}
+
+section .article {
+  float: right;
+  width: 480pt;
+  border-left: .75pt solid #c0c0c0;
+  padding: 0 0 0 15pt;
+  margin-bottom: 30pt;
+}
+
+section article {
+  margin-bottom: 12pt;
+  padding-left: 9pt;
+}
+
+section h2 {
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+}
+
+section article h3 {
+  font-family: 'Lusitana', serif;
+  font-weight: 700;
+}
+
+section article p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  top: -9pt;
+}
+
+section article p time {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+section article ul {
+  position: relative;
+  top: -13.5pt;
+}
+
+section article ul li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.detail {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  display: inline-block;
+}
+
+section article a {
+  text-decoration: none;
+}
