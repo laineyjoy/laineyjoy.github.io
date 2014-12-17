@@ -1,347 +1,109 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+<!DOCTYPE html>
+<html>
 
-body {
-  background-color: #FAFAFA;
-  width: 960px;
-}
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="css/web.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Lainey Meiri</title>
+  </head>
 
-.header {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  height: 190px;
-  background-color: #151515;
-  z-index: 1;
-}
+  <body>
 
-header img {
-  width: 600px;
-  height: auto;
-  margin: 10px auto 0px auto;
-  position: relative;
-  left: 190px;
-}
+    <div class="header">
+    <header>
+      <img src="pictures/namesnell.png" alt="Lainey J. Meiri">
+    </header>
 
-nav {
-  margin-left: 290px;
-}
+    <nav>
+      <a href="about.html">About</a><h2>&#8226;</h2>
+      <a href="portfolio.html">Portfolio</a><h2>&#8226;</h2>
+      <a href="contact.html">Contact</a>
+    </nav>
+    </div>
 
-nav a {
-  clear: both;
-  color: #FAFAFA;
-  font-family: 'Playfair Display SC', serif;
-  font-size: 150%;
-  text-decoration: none;
-}
+    <div class="maincontainer">
+    <main>
 
-nav a:hover {
-  color: #b266ff;
-}
+      <section>
+        <a href="portfolio.html">
+          <div class="box1">
+            <div class="hidden"><h2>Publication Design</h2><h3>Magazine Article</h3></div>
+          </div>
+        </a>
+      </section>
 
-nav h2 {
-  color: #FAFAFA;
-  display: inline;
-  margin: 0px 15px;
-  position: relative;
-}
+      <section>
+        <a href="portfolio.html">
+          <div class="box2">
+            <div class="hidden"><h2>Writing</h2><h3>Poetry</h3></div>
+          </div>
+        </a>
+      </section>
 
-.maincontainer {
-  margin-top: 220px;
-  margin-left: auto;
-  margin-right: auto;
-}
+      <section>
+        <a href="portfolio.html">
+          <div class="box3">
+            <div class="hidden"><h2>Product Design</h2><h3>Apparel</h3></div>
+          </div>
+        </a>
+      </section>
 
+      <section>
+        <a href="portfolio.html">
+          <div class="box4">
+            <div class="hidden"><h2>Writing</h2><h3>Public Relations</h3></div>
+          </div>
+        </a>
+      </section>
 
-.topbar {
-  position: fixed;
-  width: 940px;
-  height: 100px;
-  background-color: #FAFAFA;
-  z-index: 2;
-  box-shadow: 0 1px 0 #aaa, 0 -1px 0 #aaa;
-}
+      <section>
+        <a href="about.html">
+          <div class="box5">
+            <img src="pictures/logoblack.jpg"/>
+          </div>
+        </a>
+      </section>
 
-.topbar h2 {
-  display: inline-block;
-  font-family: 'Lato';
-  font-weight: 300;
-  font-size: 40px;
-  width: 49%;
-  min-width: 320px;
-  position: relative;
-  top: -10px;
-  padding-right: 40px;
-  color: #151515;
-}
+      <section>
+        <a href="portfolio.html">
+          <div class="box6">
+            <div class="hidden"><h2>Published Articles</h2><h3>The Miami Hurricane</h3></div>
+          </div>
+        </a>
+      </section>
 
+      <section>
+        <a href="portfolio.html">
+          <div class="box7">
+            <div class="hidden"><h2>Product Design</h2><h3>Invitations</h3></div>
+          </div>
+        </a>
+      </section>
 
-div.box1 {
-  background-image: url("../pictures/1.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 20px;
-  position: relative;
-  float: left;
-}
+      <section>
+        <a href="portfolio.html">
+          <div class="box8">
+            <div class="hidden"><h2>Publication Design</h2><h3>Advertisements</h3></div>
+          </div>
+        </a>
+      </section>
 
-div.box2 {
-  background-image: url("../pictures/2.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 20px 54px;
-  position: relative;
-  float: left;
-}
+      <section>
+        <a href="portfolio.html">
+          <div class="box9">
+            <div class="hidden"><h2>Publication Design</h2><h3>Newspapers</h3></div>
+          </div>
+        </a>
+      </section>
 
-div.box3 {
-  background-image: url("../pictures/3.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 20px;
-  position: relative;
-  float: left;
-}
+      <section class="copyright">
+        <p>&copy; Copyright 2014. All Rights Reserved.</p>
+      </section>
 
-div.box4 {
-  background-image: url("../pictures/4.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 35px 22px 20px 20px;
-  position: relative;
-  clear: both;
-  float: left;
-}
+    </main>
+    </div>
 
-div.box5 {
-  background-image: url("../pictures/logoblack.png");
-  background-size: 320px auto;
-  width: 320px;
-  height: 178px;
-  margin: 20px;
-  position: relative;
-  float: left;
-}
+  </body>
 
-div.box6 {
-  background-image: url("../pictures/6.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 35px 18px 20px 20px;
-  position: relative;
-  float: left;
-}
-
-div.box7 {
-  background-image: url("../pictures/7.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 20px;
-  position: relative;
-  clear: both;
-  float: left;
-}
-
-div.box8 {
-  background-image: url("../pictures/8.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 20px 54px;
-  position: relative;
-  float: left;
-}
-
-div.box9 {
-  background-image: url("../pictures/9.jpg");
-  background-size: 250px 150px;
-  width: 250px;
-  height: 150px;
-  border: 1px solid #151515;
-  margin: 20px;
-  position: relative;
-  float: left;
-}
-
-
-div.hidden {
-  width: 250px;
-  height: 150px;
-  position: relative;
-  top: -20px;
-  background: #fff;
-  color: #000;
-  opacity: 0;
-  visibility: hidden;
-}
-
-div.hidden img {
-  width: 250px;
-  height: 150px;
-  position: relative;
-  top: 20px;
-  opacity: 0;
-  visibility: hidden;
-}
-
-div.box1:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-div.box2:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-div.box3:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-div.box4:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-div.box6:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-div.box7:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-div.box8:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-div.box9:hover div.hidden {
-  visibility: visible;
-  background-color: #b266ff;
-  opacity: 1;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
-}
-
-.topbar2 {
-  position: relative;
-  width: 940px;
-  height: 75px;
-  background-color: #FAFAFA;
-  box-shadow: 0 1px 0 #aaa, 0 -1px 0 #aaa;
-}
-
-.topbar2 h2 {
-  display: inline-block;
-  font-family: 'Lato';
-  font-weight: 300;
-  font-size: 40px;
-  width: 49%;
-  position: relative;
-  top: -20px;
-  color: #151515;
-}
-
-.topbar2 article {
-  position: relative;
-  top: -25px;
-}
-
-.topbar2 article p {
-  font-family: 'EB Garamond', serif;
-  font-size: 18px;
-}
-
-.topbar3 {
-  position: relative;
-  top: 180px;
-  width: 940px;
-  height: 75px;
-  background-color: #FAFAFA;
-  box-shadow: 0 1px 0 #aaa, 0 -1px 0 #aaa;
-  display: inline-block;
-  font-family: 'Lato';
-  font-weight: 300;
-  font-size: 40px;
-  color: #151515;
-}
-
-.resume {
-  position: relative;
-  top: 160px;
-}
-
-.resume h3 {
-  font-family: 'Lato';
-  font-weight: 700;
-  font-size: 22px;
-}
-
-.resume h4 {
-  font-family: 'Lato';
-  font-weight: 400;
-  font-size: 20px;
-  margin-left: 40px;
-}
-
-.resume p {
-  font-family: 'Lato';
-  font-weight: 300;
-  font-size: 18px;
-  margin-left: 40px;
-  position: relative;
-  top: -18px;
-}
-
-
-.resume ul li {
-  font-family: 'EB Garamond', serif;
-  margin-left: 40px;
-  position: relative;
-  top: -20px;
-}
-
-
-.copyright {
-  font-family: 'Lato';
-  clear: both;
-  position: relative;
-  top: 150px;
-}
+</html>
