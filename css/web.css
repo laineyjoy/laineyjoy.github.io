@@ -199,15 +199,66 @@ div.hidden img {
 div.box1:hover div.hidden {
   visibility: visible;
   background-color: #b266ff;
-  opacity: 0.65;
-  font-family: 'Playfair Display SC', serif;
-}
-
-div.box1:hover .text {
   opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
 }
 
+div.box2:hover div.hidden {
+  visibility: visible;
+  background-color: #b266ff;
+  opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
 
+div.box3:hover div.hidden {
+  visibility: visible;
+  background-color: #b266ff;
+  opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+div.box4:hover div.hidden {
+  visibility: visible;
+  background-color: #b266ff;
+  opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+div.box6:hover div.hidden {
+  visibility: visible;
+  background-color: #b266ff;
+  opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+div.box7:hover div.hidden {
+  visibility: visible;
+  background-color: #b266ff;
+  opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+div.box8:hover div.hidden {
+  visibility: visible;
+  background-color: #b266ff;
+  opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+div.box9:hover div.hidden {
+  visibility: visible;
+  background-color: #b266ff;
+  opacity: 1;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
 
 .topbar2 {
   position: relative;
